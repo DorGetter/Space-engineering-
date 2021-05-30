@@ -24,7 +24,7 @@ def rescale_frame(frame, scale=0.75):
     return cv2.resize(frame, dimensions, interpolation=cv2.INTER_AREA)
 
 
-cap = cv2.VideoCapture("test1.mp4")
+cap = cv2.VideoCapture("iss.mp4")
 
 ret, frame1 = cap.read()
 ret, frame2 = cap.read()
